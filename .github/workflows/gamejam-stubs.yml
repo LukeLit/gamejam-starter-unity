@@ -1,0 +1,20 @@
+name: GameJam stubs
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# No hosted Unity build in v2 — verify GameJam bind paths only.
+jobs:
+  stubs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Require GameJam bind paths
+        run: |
+          test -f docs/GAMEJAM.md
+          test -f docs/wiki/Home.md
+          test -f UPSTREAM.md
+          test -f AGENTS.md
+          echo "OK: Unity template GameJam stubs present (editor smoke is local)"

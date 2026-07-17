@@ -1,31 +1,27 @@
-﻿# GameJam / Talos hooks (stub)
+﻿# GameJam / Talos hooks
 
-This repository is a LukeLit **GitHub template** used by Metal Games GameJam git shepherd.
+This repository is a LukeLit **GitHub template** used by Metal Games GameJam git shepherd (`stack: unity`).
 
 | Field | Value |
 |-------|--------|
-| Stack key | $stack |
+| Stack key | `unity` |
 | Template repo | LukeLit/gamejam-starter-unity |
-| Upstream | [Khan-amil/GameJam-StarterKit](https://github.com/Khan-amil/GameJam-StarterKit) |
+| Upstream | [Khan-amil/GameJam-StarterKit](https://github.com/Khan-amil/GameJam-StarterKit) (MIT) — see `UPSTREAM.md` |
 
 ## Provision
-
-Talos / site calls:
 
 ```http
 POST /repos/LukeLit/gamejam-starter-unity/generate
 ```
 
-Site defaults / env map: see LukeLit/metalgames-site → docs/GAMEJAM-GIT-TEMPLATES.md.
+After create, the site **overwrites this file** with filled bind fields from the submission SSOT and bootstraps `docs/wiki/`.
 
-## Placeholder hooks (v1 stub)
+Player Settings (Company Name / Product Name) are **not** auto-patched in v2 — copy from the store table written into this file after provision.
 
-Fill these in a later pass (tracked on metalgames-site issues linked from #89):
+Hosted Unity CI on GitHub-hosted runners is out of scope; use local/editor smoke before publish.
 
-- gamejam.slug — submission slug once bound
-- gamejam.gitRepoUrl — generated repo URL
-- gamejam.store — Steam / itch metadata fields
-- gamejam.wiki — SSOT pages under docs/wiki/
-- CI / export pipeline wired to GameJam publish
+See: LukeLit/metalgames-site → `docs/GAMEJAM-GIT-TEMPLATES.md`.
 
-Do not put secrets here.
+## Secrets
+
+Do not put secrets here. Keep upstream LICENSE notices intact.

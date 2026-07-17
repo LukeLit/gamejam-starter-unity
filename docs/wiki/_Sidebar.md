@@ -1,4 +1,5 @@
-﻿**Wiki**
+﻿# Wiki
 
 - [Home](Home)
-- [GameJam hooks](../GAMEJAM)
+- [Mechanics](Mechanics)
+- [Art Direction](Art-Direction)

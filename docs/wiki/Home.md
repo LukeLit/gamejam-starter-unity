@@ -1,6 +1,6 @@
 ﻿# Game wiki (bootstrap)
 
-Replace this stub with your GameJam SSOT after Talos Journey / wiki publish.
+Talos provision replaces this stub with GameJam SSOT (or a filled minimal Home).
 
 ## Status
 
