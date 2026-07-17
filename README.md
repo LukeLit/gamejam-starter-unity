@@ -1,3 +1,6 @@
+﻿> **Metal Games / GameJam template** — `LukeLit/gamejam-starter-unity` (`is_template: true`).  
+> Provisioned by Talos git shepherd. See [docs/GAMEJAM.md](docs/GAMEJAM.md) and [UPSTREAM.md](UPSTREAM.md).  
+> Tracking: [metalgames-site#89](https://github.com/LukeLit/metalgames-site/issues/89)
 # GameJam StarterKit
 
 Welcome to the **GameJam StarterKit** project!
@@ -5,9 +8,9 @@ This project is set up to help you kickstart your game development in Unity.
 It is made for Unity 6.1 and above, setup for URP and both the legacy and the new Unity Input System.
 ---
 
-## 📂 Project Structure
+## ðŸ“‚ Project Structure
 
-Here’s an overview of the main project structure:
+Hereâ€™s an overview of the main project structure:
 
 - **Assets/Core**: Contains all essential scripts and reusable tools for the project. Also contains general project settings.
 - **Assets/_Game**: Put the assets for your game here.
@@ -63,3 +66,4 @@ Check out these links to get some assets to get you started on your game jam:
 - [FreePBR](https://freepbr.com/): A resource for free PBR textures and materials.
 - [GameArt2D](https://gameart2d.com/freebies.html): Provides free 2D game art assets.
 - [GameDev Academy](https://www.gamedevacademy.org/free-game-assets/): A collection of free game assets for various genres.
+
